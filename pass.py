@@ -1,8 +1,8 @@
 PASSWORD = 'Waubonsee'
 user_password = input('Enter user password: ')
 
-if PASSWORD == user_password:
-    print('CORRECT')
-
-else:
+while PASSWORD != user_password:
     print('INCORRECT PASSWORD')
+    user_password = input('Enter user password: ')
+
+print('CORRECT')
